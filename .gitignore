@@ -1,0 +1,36 @@
+# Ignore compiled class files
+*.class
+
+# Ignore IntelliJ IDEA project files
+.idea/
+*.iml
+
+# Ignore output directories
+/out/
+# IntelliJ caches, logs, and temp files
+/.idea/*
+
+# Ignore Maven and Gradle build directories
+/target/
+/build/
+
+# Ignore IDE-specific files
+*.log
+*.swp
+*.swo
+
+# Ignore user-specific configuration files
+.DS_Store
+Thumbs.db
+
+# Ignore Java specific config files that don't need version control
+*.orig
+
+# Ignore compiled files for JavaFX projects (if applicable)
+*.jar
+*.war
+*.ear
+
+# Ignore .project and .classpath (Eclipse IDE files, if applicable)
+.project
+.classpath
