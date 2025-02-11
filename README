@@ -1,0 +1,11 @@
+//launch rmiregistry on mandelbrot on port 1099
+rmiregistry 1099 &
+
+//compile the files
+javac *.java
+
+//launch the server
+java Server
+
+//launch the client
+java Client localhost 1099
